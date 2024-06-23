@@ -1,0 +1,149 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.active {
+    background-color: orange;
+}
+
+/* common css end */
+
+/* nav bar start */
+
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar .logo {
+    font-size: 25px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.navbar nav ul li a:hover {
+    letter-spacing: 1px;
+    color: brown;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio1,
+.radio2,
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+
+
+/* nav bar end */
+
+
+/* blogs start  */
+.title {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.title ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.title ul li {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.blog-inner {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.i1 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.i1 .image {
+    background-image: url('../image/main-img.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.i1 h4 {
+    color: orange;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    width: fit-content;
+}
+
+.i1 h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.i1 p {
+    margin-bottom: 10px;
+
+}
+
+.i1 p:last-child {
+    cursor: pointer;
+}
+
+.bi2 .i1:last-child {
+    margin-bottom: 30px;
+}
+
+/* blogs end */

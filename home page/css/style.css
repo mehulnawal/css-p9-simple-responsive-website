@@ -1,0 +1,106 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar .logo {
+    font-size: 25px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.navbar nav ul li a:hover {
+    letter-spacing: 1px;
+    color: brown;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio1,
+.radio2,
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+
+/* header-2 start */
+.main-head {
+    height: 100vh;
+}
+
+.header-2 {
+    height: 85vh;
+    background: url(../images/main-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.header-2 .heading h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.header-2 a {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.header-2 .link {
+    display: flex;
+    justify-content: center;
+}
+
+.header-2 a:first-child {
+    background-color: transparent;
+    border: 1px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-right: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.header-2 a:first-child:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+/* header-2 end */

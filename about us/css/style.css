@@ -1,0 +1,106 @@
+/* Common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Common css end */
+
+/* nav bar start */
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar .logo {
+    font-size: 25px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.navbar nav ul li a:hover {
+    letter-spacing: 1px;
+    color: brown;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio1,
+.radio2,
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+
+/* nav bar end */
+
+/* about us start */
+.about {
+    margin-top: 40px;
+}
+
+.inner {
+    display: flex;
+}
+
+.left-side h1 {
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.left-side>a {
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.left-side .social-links ul {
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.left-side .social-links ul li {
+    margin-right: 10px;
+}
+
+/* about us end */

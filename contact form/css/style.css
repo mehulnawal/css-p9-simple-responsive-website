@@ -1,0 +1,142 @@
+/* common css */
+
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* common css end */
+
+/* nav bar start */
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar .logo {
+    font-size: 25px;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.navbar nav ul li a:hover {
+    letter-spacing: 1px;
+    color: brown;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio1,
+.radio2,
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+/* nav bar end */
+
+
+/* contact form start*/
+.form {
+    background-color: white;
+    width: 60%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 10px 20px;
+    max-width: 800px;
+}
+
+.form .left-side {
+    text-align: center;
+}
+
+.form .left-side div {
+    margin-top: 20px;
+}
+
+.form .left-side i {
+    color: darkblue;
+}
+
+.form .left-side h3 {
+    font-weight: bold;
+}
+
+.form .left-side p {
+    color: gray;
+}
+
+.form-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side form input:not(.right-side form #submit),
+textarea {
+    background-color: lightseagreen;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form ::placeholder {
+    color: white;
+}
+
+.right-side form input {
+    height: 40px;
+
+}
+
+#submit {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* contact form end*/
